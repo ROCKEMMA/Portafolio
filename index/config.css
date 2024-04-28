@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    color: var(--text-color-lite);
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --text-color-dark: #0F172A;
+    --text-color-lite: #343434;
+    --text-color-opacity: rgb(148 163 184);
+    --blue-dark: #17202A;
+    --blue-lite: #1E293B;
+    --blue-hover: rgb(226 232 240);
+}
+
+:root {
+    --h1: 4rem;
+    --h2: 2rem;
+    --h3: 1.7rem;
+    --p: 1.7rem;
+}

@@ -1,0 +1,47 @@
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 1.2rem;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    display: grid;
+    grid-template-columns: 20rem 1fr 30rem;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.div_numero_proyectos {
+    min-width: 20rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.div_numero_proyectos h3 {
+    font-size: var(--h3);
+}
+.div_numero_proyectos div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgb(28, 28, 34);
+    color: white;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .contactar {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: right;
+    border-radius: 5px;
+    width: 10rem;
+    background-color: rgb(28, 28, 34);
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
