@@ -5,11 +5,21 @@
     padding: 0 1.2rem;
 
     display: grid;
-    grid-template-columns: repeat(4, 25rem);
     align-items: center;
     gap: 2rem;
 }
 
+@media screen and (min-width: 1300px) {
+    .div_proyectos_web {
+        grid-template-columns: repeat(4, 22rem);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .div_proyectos_web {
+        grid-template-columns: repeat(4, 25rem);
+    }
+}
 .sitio-web {
     border: 1px solid rgb(233, 233, 233);
     border-radius: 3px;

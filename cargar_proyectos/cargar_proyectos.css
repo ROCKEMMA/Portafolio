@@ -5,10 +5,20 @@
     padding-top: 5rem;
     
     display: grid;
-    grid-template-columns: repeat(4, 30rem);
     grid-template-rows: repeat(4,1fr);
     gap: 2rem;
     overflow-y: auto;
+}
+@media screen and (min-width: 1300px) {
+    .proyectos-y-servision {
+        grid-template-columns: repeat(3, 30rem);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .proyectos-y-servision {
+        grid-template-columns: repeat(4, 30rem);
+    }
 }
 
 .proyectos-y-servision .item-servicio {
@@ -51,7 +61,7 @@
     align-self: center;
     font-size: 3rem;
     font-weight: 600;
-    justify-self: end;
+    justify-self: center;
 }
 .item-servicio .tituloEquipos {
     grid-column: 3/4;
