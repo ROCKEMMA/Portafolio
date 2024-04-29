@@ -4,6 +4,7 @@
     margin: 1.2rem;
     padding-bottom: 5rem;
     border-bottom: 1px solid rgb(207, 207, 207);
+
     display: grid;
     grid-template-columns: 20rem 1fr 30rem;
     grid-template-rows: 1fr 1fr;

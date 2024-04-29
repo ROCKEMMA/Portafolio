@@ -6,7 +6,7 @@ function cargar_menu_superior(){
             <h3>Proyectos</h3>
             <div>7</div>
         </div>
-        <div class="contactar">Contactar</div>
+        <a class="contactar" href="https://github.com/ROCKEMMA">Github</a>
     `;
 }
 
