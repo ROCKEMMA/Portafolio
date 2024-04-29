@@ -13,7 +13,8 @@ function cargar_proyectos(){
                 <img src="${servicio.img}" alt="">
             </di>
             <img class="ico" src="https://cdn.hugeicons.com/icons/laptop-performance-solid-rounded.svg" src="">
-            <span>${servicio.numeroEquipos}</span>
+            <span class="tituloEquipos">Equipos</span>
+            <span class="numeroEquipos">${servicio.numeroEquipos}</span>
             <h3>${servicio.nombreServicio}</h3>
             <p>${servicio.descripcion}</p>
             `;

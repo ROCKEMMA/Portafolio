@@ -3,10 +3,12 @@
     grid-row: 3/4;
     padding: 0 1.5rem;
     padding-top: 5rem;
-    cursor: pointer;
+    
     display: grid;
     grid-template-columns: repeat(4, 30rem);
+    grid-template-rows: repeat(4,1fr);
     gap: 2rem;
+    overflow-y: auto;
 }
 
 .proyectos-y-servision .item-servicio {
@@ -14,6 +16,8 @@
     padding: 1rem;
     border: 1px solid rgb(233, 233, 233);
     border-radius: 3px;
+    cursor: pointer;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -40,7 +44,7 @@
     align-self: center;
     display: none;
 }
-.item-servicio span {
+.item-servicio .numeroEquipos {
     grid-column: 3/4;
     grid-row: 1/2;
     justify-self: center;
@@ -49,6 +53,15 @@
     font-weight: 600;
     justify-self: end;
 }
+.item-servicio .tituloEquipos {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.5rem;
+    align-self: self-start;
+}
+
 .item-servicio h3 {
     grid-column: 1/4;
     grid-row: 4/5;

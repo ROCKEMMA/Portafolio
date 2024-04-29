@@ -9,6 +9,7 @@ function cargar_proyectos_web(){
         let a = document.createElement("a");
         a.className = "sitio-web";
         a.href = web.link;
+        a.target = "_blank";
         
         a.innerHTML = `
             <div>
