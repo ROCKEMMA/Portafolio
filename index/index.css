@@ -3,6 +3,13 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 25rem 1fr;
-    grid-template-rows: 6rem 5rem 1fr;
+    grid-template-rows: 6rem 5rem 5rem 1fr;
     gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #root {
+        height: 100%;
+        grid-template-columns: 1fr;
+    }
 }
