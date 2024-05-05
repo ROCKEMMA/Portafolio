@@ -1,83 +1,103 @@
 let lista_stacks = [
     {
-        nombre: "bash",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/bash.png?raw=true"
-    },
-    {
-        nombre: "css",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/css.png?raw=true"
-    },
-    {
-        nombre: "Discord",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/discord.png?raw=true"
-    },
-    {
-        nombre: "Excel",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/excel.png?raw=true"
-    },
-    {
-        nombre: "Figma",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/figma.png?raw=true"
-    },
-    {
-        nombre: "Git",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/git.png?raw=true"
-    },
-    {
-        nombre: "Github",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/github.png?raw=true"
+        nombre: "notion",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/notion.svg",
+        categoria: "notas"
     },
     {
         nombre: "HTML",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/html.png?raw=true"
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/html.svg",
+        categoria: "marcado"
     },
     {
-        nombre: "Ilustrator",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/illustrator.png?raw=true"
-    },
-    {
-        nombre: "JAVA",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/java.png?raw=true"
+        nombre: "CSS",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/css.svg",
+        categoria: "marcado"
     },
     {
         nombre: "Javascript",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/javascript.png?raw=true"
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/javascript.svg",
+        categoria: "programación"
     },
     {
-        nombre: "linode",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/linode.png?raw=true"
+        nombre: "bash",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/bash.svg",
+        categoria: "terminal"
     },
     {
-        nombre: "notion",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/notion.png?raw=true"
-    },
+        nombre: "Git",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/git.svg",
+        categoria: "terminal"
+    },    
     {
-        nombre: "Photoshop",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/photoshop.png?raw=true"
-    },
-    {
-        nombre: "python",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/python.png?raw=true"
+        nombre: "Github",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/github.svg",
+        categoria: "terminal"
     },
     {
         nombre: "React",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/react.png?raw=true"
-    },
-    {
-        nombre: "SQL",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/sql.png?raw=true"
-    },
-    {
-        nombre: "Ubuntu",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/ubuntu.png?raw=true"
-    },
-    {
-        nombre: "vscode",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/vscode.png?raw=true"
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/react.svg",
+        categoria: "web"
     },
     {
         nombre: "WordPres",
-        src: "https://github.com/ROCKEMMA/img/blob/main/stacks/wordPress.png?raw=true"
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/wordPress.svg",
+        categoria: "web"
+    },
+    {
+        nombre: "JAVA",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/java.svg",
+        categoria: "programación"
+    },
+    {
+        nombre: "python",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/python.svg",
+        categoria: "programación"
+    },
+    {
+        nombre: "SQL",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/sql.svg",
+        categoria: "datos"
+    },
+    {
+        nombre: "Excel",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/excel.svg",
+        categoria: "datos"
+    },
+    {
+        nombre: "Figma",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/figma.svg",
+        categoria: "diseño"
+    },
+    {
+        nombre: "Ilustrator",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/illustrator.svg",
+        categoria: "diseño"
+    },
+    {
+        nombre: "Photoshop",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/photoshop.svg",
+        categoria: "diseño"
+    },
+    {
+        nombre: "linode",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/linode.svg",
+        categoria: "terminal"
+    },
+    {
+        nombre: "Ubuntu",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/ubuntu.svg",
+        categoria: "os"
+    },
+    {
+        nombre: "vscode",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/vscode.svg",
+        categoria: "editor"
+    },
+    {
+        nombre: "Discord",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/discord.svg",
+        categoria: "comunicación"
     }
 ];
 

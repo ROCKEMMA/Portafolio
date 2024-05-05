@@ -6,7 +6,11 @@ function cargar_stacks(){
 
     lista_stacks.forEach(element => {
         let div = document.createElement("div");
-        div.innerHTML =`<img src="${element.src}" alt="${element.nombre}">`;
+        div.className =element.className;
+        div.innerHTML =`
+            <img src="${element.src}" alt="${element.nombre}">
+            <div class="mensaje-stack">${element.nombre}</div>
+        `;
         div_stacks.appendChild(div);
     });
 }

@@ -7,7 +7,7 @@ function cargar_menu_lateral(){
     div_menu.innerHTML = `
         <div class="logo-box">
             <div class="logo-box_ico-box">
-                <img src="https://raw.githubusercontent.com/ROCKEMMA/img/main/logo/logo_pequenno.png">
+                <img src="https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/logo/logo_pequenno.svg">
             </div>
             <span>Jossue Fuentes</span>
         </div>
