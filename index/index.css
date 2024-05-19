@@ -3,7 +3,7 @@
     /* height: 100vh; */
     display: grid;
     grid-template-columns: 25rem 1fr 0.3rem;
-    grid-template-rows: 5rem auto auto;
+    grid-template-rows: 5rem auto 1fr;
     gap: 1rem;
     column-gap: 2.3rem;
 }
