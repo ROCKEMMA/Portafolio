@@ -34,16 +34,16 @@ let lista_stacks = [
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/github.svg",
         categoria: "terminal"
     },
-    {
+/*     {
         nombre: "React",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/react.svg",
         categoria: "web"
-    },
-    {
+    }, */
+/*     {
         nombre: "WordPres",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/wordPress.svg",
         categoria: "web"
-    },
+    }, */
     {
         nombre: "JAVA",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/java.svg",
@@ -79,11 +79,11 @@ let lista_stacks = [
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/photoshop.svg",
         categoria: "diseño"
     },
-    {
+/*     {
         nombre: "linode",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/linode.svg",
         categoria: "terminal"
-    },
+    }, */
     {
         nombre: "Ubuntu",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/ubuntu.svg",

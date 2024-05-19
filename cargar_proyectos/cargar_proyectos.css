@@ -1,7 +1,7 @@
 .proyectos-y-servision {
     grid-column: 2/3;
-    grid-row: 3/5;
-    padding-top: 6rem;
+    grid-row: 3/4;
+    padding-top: 1rem;
     
     display: grid;
     grid-template-columns: repeat(5,1fr);
