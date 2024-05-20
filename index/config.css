@@ -8,6 +8,7 @@ html {
     font-size: 10px;
     color: var(--text-color-lite);
     font-family: "Inter", sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 :root {
