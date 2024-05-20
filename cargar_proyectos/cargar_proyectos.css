@@ -1,12 +1,12 @@
 .proyectos-y-servision {
     grid-column: 2/3;
     grid-row: 3/4;
-
+    
     padding-top: 1rem;
     
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
-    grid-template-rows: repeat(auto-fit,minmax(30em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-rows: repeat(auto-fit,minmax(30rem, 1fr));
 }
 
 .proyectos-y-servision .item-servicio {
@@ -15,10 +15,10 @@
     padding: 1rem;
     border: 1px solid rgb(233, 233, 233);
     border-radius: 3px;
-
+    
     cursor: pointer;
     overflow-y: scroll;
-
+    
     display: grid;
 }
 .item-servicio div {
@@ -26,7 +26,7 @@
     border: 1px solid rgb(230, 230, 230);
     padding: 0.5rem;
     font-size: 1.2rem;
-
+    
     display: grid;
     grid-template-columns: 1fr 4rem;
     gap: 1rem;
@@ -40,4 +40,16 @@
     background-color: rgb(28, 28, 34);
     color: white;
     transition: 0.5s;
+}
+
+@media screen and (max-width: 720px) {
+    .proyectos-y-servision {
+        grid-column: 1/2;
+        grid-row: 4/5;
+
+        grid-template-columns: auto;
+    }
+    .proyectos-y-servision .item-servicio {
+        max-width: 100%;
+    }
 }

@@ -52,3 +52,21 @@
     font-weight: 400;
     align-self: self-start;
 }
+
+.proyectos-y-servision {
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+    padding-top: 1rem;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    grid-template-rows: repeat(auto-fit,minmax(30em, 1fr));
+}
+
+@media screen and (max-width: 720px) {
+    .div_proyectos_web {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+}

@@ -52,3 +52,8 @@
     color: gray;
     transition: 0.3s;
 }
+@media screen and (max-width: 720px) {
+    .titulo_stacks {
+        margin-top: 2rem;
+    }
+}
