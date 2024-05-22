@@ -13,14 +13,14 @@ const listaSitiosWeb = [
     },
     {
         nombrePagina: 'Market list',
-        link: 'https://rockemma.github.io/TodoList/',
-        descripcion: 'www.juegodememoria.com',
+        link: 'https://rockemma.github.io/Market_list/',
+        descripcion: 'www.marketlist.com',
         img: 'https://raw.githubusercontent.com/ROCKEMMA/img/fcd8c7d327648f3052642adf18228e9b58a40284/icos_portafolio/checkmark-square-02-stroke-rounded.svg'
     },
     {
         nombrePagina: 'Calculadora',
         link: 'https://rockemma.github.io/rm_calculator/',
-        descripcion: 'www.juegodememoria.com',
+        descripcion: 'www.calculadora.com',
         img: 'https://raw.githubusercontent.com/ROCKEMMA/img/fcd8c7d327648f3052642adf18228e9b58a40284/icos_portafolio/calculate-stroke-rounded.svg'
     },
     {
