@@ -24,7 +24,7 @@ const lista_servicios = [
         img: 'https://www.digitaltoo.com/wp-content/uploads/sites/3/2021/02/Pantalla-Rota-2.jpg'
     },
     {
-        nombreServicio: 'Armados de CPU',
+        nombreServicio: 'Armados de PC',
         descripcion: 'Selección compatible de Procesador, Moderboard, RAM, GPU.',
         numeroEquipos: "4",
         img: 'https://redgol.cl/__export/1648064549070/sites/redgol/img/2022/03/23/armado-de-pc_1_crop1648063477078.jpg_242310155.jpg'

@@ -1,7 +1,7 @@
-import { cargar_menu_lateral } from "./cargar_menu_lateral/cargar_menu_lateral.js";
-import { cargar_menu_superior } from "./cargar_menu_superior/cargar_menu_superior.js";
-import { cargar_proyectos_web } from "./cargar_proyectos_web/cargar_proyectos_web.js";
-import { cargar_proyectos } from "./cargar_proyectos/cargar_proyectos.js";
+import { cargar_menu_lateral } from "./components/cargar_menu_lateral/cargar_menu_lateral.js";
+import { cargar_menu_superior } from "./components/cargar_menu_superior/cargar_menu_superior.js";
+import { cargar_proyectos_web } from "./components/cargar_proyectos_web/cargar_proyectos_web.js";
+import { cargar_proyectos } from "./components/cargar_proyectos/cargar_proyectos.js";
 
 let DOM = document.querySelector("#root");
 DOM.innerHTML = `
