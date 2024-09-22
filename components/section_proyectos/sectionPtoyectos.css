@@ -1,0 +1,64 @@
+.section-proyectos {
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-tabla {
+    grid-column: 1/5;
+    font-weight: 600;
+}
+
+/* SECCIÓN TE ITEM TABLA */
+.item-tabla, .campos-tabla {
+    color: black;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+}
+
+.item-tabla:hover {
+    background-color: #ebeff3;
+    transition: 0.3s;
+}
+.item-tabla .nombre {
+    text-decoration: none;
+    color: rgb(73, 73, 211);
+}
+.item-tabla .nombre:hover {
+    text-decoration: underline;
+}
+
+.item-tabla .btn-github {
+    max-width: 8rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat {
+    max-width: 8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-weight: 900;
+    border: 1px solid gainsboro;
+}
+.catWeb {
+    border: 1px solid black;
+}
+.catBachEnd {
+    background-color: rgb(51, 51, 107);
+    border: 1px solid black;
+    color: white;
+}
