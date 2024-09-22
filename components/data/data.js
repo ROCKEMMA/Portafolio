@@ -13,7 +13,7 @@ let proyectos = [
     {
         nombre: "Componentes del computador",
         descripción: "",
-        link_web: "https://rockemma.github.io/componentes_del_computador/",
+        link_web: "components/pagina_programando/programando.html",
         github: "https://github.com/ROCKEMMA/componentes_del_computador",
         categoria: "Web",
         stacks: ["html", "css", "javascript"],
@@ -42,7 +42,7 @@ let proyectos = [
         inicio: "05/08/2024",
         img: "",
         icono: ""
-    },
+    }/* ,
     {
         nombre: "Gestor de Notas",
         descripción: "Aplicación sencilla para crear y eliminar notas.",
@@ -53,7 +53,7 @@ let proyectos = [
         inicio: "10/08/2024",
         img: "link/gestor_notas.jpg",
         icono: "📓"
-    },
+    } */,
     {
         nombre: "Lista de Super Mercado",
         descripción: "",
@@ -86,7 +86,7 @@ let proyectos = [
         inicio: "01/02/2024",
         img: "",
         icono: ""
-    },
+    }/* ,
     {
         nombre: "Simulador de Finanzas",
         descripción: "Calculadora de presupuestos simples.",
@@ -97,7 +97,7 @@ let proyectos = [
         inicio: "01/06/2024",
         img: "link/finanzas.jpg",
         icono: "😃"
-    }
+    } */
 ];
 
 let totalProyectos = proyectos.length;
