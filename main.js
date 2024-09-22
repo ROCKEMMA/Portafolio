@@ -1,18 +1,18 @@
-import { cargar_menu_lateral } from "./components/cargar_menu_lateral/cargar_menu_lateral.js";
+import { htmlMenuLateral, cargar_stacks } from "./components/cargar_menu_lateral/cargar_menu_lateral.js";
+import { SectionProyectos } from "./components/section_proyectos/sectionProyectos.js";
 import { cargar_menu_superior } from "./components/cargar_menu_superior/cargar_menu_superior.js";
-import { cargar_proyectos_web } from "./components/cargar_proyectos_web/cargar_proyectos_web.js";
-import { cargar_proyectos } from "./components/cargar_proyectos/cargar_proyectos.js";
 
 let DOM = document.querySelector("#root");
-DOM.innerHTML = `
-    <div class="div-menu-lateral"></div>
-    <header class="header"></header>
-    <div class="div_proyectos_web"></div>
-    <section class="proyectos-y-servision"></section>
-`;
 
-/* SECCIÓNES DE LA PÁGINA */
-cargar_menu_lateral();
-cargar_menu_superior();
-cargar_proyectos_web();
-cargar_proyectos();
+let sectionMenuLateral = document.createElement('div');
+sectionMenuLateral.className = "div-menu-lateral";
+sectionMenuLateral.appendChild(htmlMenuLateral());
+sectionMenuLateral.appendChild(cargar_stacks());
+DOM.appendChild(sectionMenuLateral);
+
+let sectionProyectos = document.createElement('section');
+sectionProyectos.className = "div_proyectos_web";
+sectionProyectos.appendChild(cargar_menu_superior());
+sectionProyectos.appendChild(SectionProyectos());
+
+DOM.appendChild(sectionProyectos);

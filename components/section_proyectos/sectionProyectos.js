@@ -1,40 +1,26 @@
 import { proyectos } from "../data/data.js";
+import { itemTabla } from "./item_proyecto.js";
 
 function SectionProyectos(){
     let sectionProyectos = document.createElement('div');
     sectionProyectos.className = 'section-proyectos';
 
-    let header = document.createElement('header');
-    header.className = 'header';
-    header.innerHTML = "Hola mundo";
-    sectionProyectos.appendChild(header);
+    // Emcanezados
+    let camposTabla = document.createElement("div");
+    camposTabla.className = "campos-tabla";
+    camposTabla.innerHTML = `
+        <div>PROYECTOS</div>
+        <div>STACKS</div>
+        <div>CATEGORÍA</div>
+        <div>PUBLICACIÓN</div>
+        <div>REPOSITORIO</div>
+    `;
+    sectionProyectos.appendChild(camposTabla);
 
-    let tabla = document.createElement('section');
-    tabla.appendChild(ListaProyectos(proyectos));
-    sectionProyectos.appendChild(tabla);
-
-    return sectionProyectos;
-}
-
-function ListaProyectos(data){
-    let tablaProyectos = document.createElement('section');
-    
-    data.forEach(element => {
-        
-        tablaProyectos.appendChild(itemTabla(element));
+    proyectos.forEach(element => {
+        sectionProyectos.appendChild(itemTabla(element));
     });
-
-    return tablaProyectos;
-}
-
-function itemTabla (datos){
-    let div = document.createElement('div');
-
-    let ico = document.createElement('div');
-    ico.innerText = datos.ico;
-    div.appendChild(ico);
-
-    return div;
+    return sectionProyectos;
 }
 
 export { SectionProyectos }

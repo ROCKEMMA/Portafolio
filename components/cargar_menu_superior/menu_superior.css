@@ -2,16 +2,15 @@
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin: 1.2rem 0;
-    padding-bottom: 5rem;
-    border-bottom: 1px solid rgb(207, 207, 207);
-    
+    /* border-bottom: 1px solid rgb(207, 207, 207); */
+
     display: grid;
     grid-template-columns: 20rem 1fr 30rem;
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
 }
-.div_numero_proyectos {
-    min-width: 20rem;
+
+.header .div_numero_proyectos {
     height: 3rem;
     display: flex;
     align-items: center;
