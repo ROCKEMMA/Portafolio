@@ -62,3 +62,28 @@
     border: 1px solid black;
     color: white;
 }
+
+
+@media (max-width: 768px) {
+    .campos-tabla {
+        display: none;
+    }
+    .item-tabla {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 1rem;
+    }
+    
+    .item-tabla .nombre, .item-tabla .stacks{
+        grid-column: 1/4;
+    }
+    .item-tabla .btn-github, .item-tabla> * {
+        max-width: none;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+}

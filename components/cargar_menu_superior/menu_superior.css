@@ -1,8 +1,7 @@
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    margin: 1.2rem 0;
-    /* border-bottom: 1px solid rgb(207, 207, 207); */
+    margin: 1.2rem 1rem;
 
     display: grid;
     grid-template-columns: 20rem 1fr 30rem;
@@ -32,6 +31,7 @@
 }
 
 .header .contactar {
+    text-decoration: none;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     justify-self: right;
