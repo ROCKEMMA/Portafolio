@@ -18,10 +18,9 @@
     cursor: pointer;
 
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr) 1fr 1fr 1fr;
     align-items: center;
 }
-
 .item-tabla:hover {
     background-color: #ebeff3;
     transition: 0.3s;
@@ -29,12 +28,18 @@
 .item-tabla .nombre {
     text-decoration: none;
     color: rgb(73, 73, 211);
+    align-self: start;
+    align-self: center;
 }
 .item-tabla .nombre:hover {
     text-decoration: underline;
 }
-
+.titulo-btn-github {
+    justify-self: end;
+}
 .item-tabla .btn-github {
+    justify-self: end;
+
     max-width: 8rem;
     padding: 0.5rem 1rem;
     text-decoration: none;

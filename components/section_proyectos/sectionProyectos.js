@@ -13,7 +13,7 @@ function SectionProyectos(){
         <div>STACKS</div>
         <div>CATEGORÍA</div>
         <div>PUBLICACIÓN</div>
-        <div>REPOSITORIO</div>
+        <div class="titulo-btn-github">REPOSITORIO</div>
     `;
     sectionProyectos.appendChild(camposTabla);
 

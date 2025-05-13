@@ -1,23 +1,12 @@
 let proyectos = [
-    {
-        nombre: "Juego de memoria",
-        descripción: "Levanta cartas y encuentra el par, cuida el tiempo y gana puntos",
-        link_web: "https://rockemma.github.io/juego-de-cartas/",
-        github: "https://github.com/ROCKEMMA/juego_de_memoria",
+     {
+        nombre: "Curso Raspberry pi pico W",
+        descripción: "Curso práctico de Raspberry Pi Pico W para aprender programación en Python y crear proyectos IoT con conectividad Wi-Fi.",
+        link_web: "https://rockema-academy.notion.site/Curso-Raspberry-pi-pico-W-1-1f2bc7f02f4780caaea3fa3c8e9542d8",
+        github: "#",
         categoria: "Web",
-        stacks: ["html", "css", "javascript"],
-        inicio: "15/03/2024",
-        img: "",
-        icono: ""
-    },
-    {
-        nombre: "Componentes del computador",
-        descripción: "",
-        link_web: "components/pagina_programando/programando.html",
-        github: "https://github.com/ROCKEMMA/componentes_del_computador",
-        categoria: "Web",
-        stacks: ["html", "css", "javascript"],
-        inicio: "04/08/2024",
+        stacks: ["Notion"],
+        inicio: "05/2025",
         img: "",
         icono: ""
     },
@@ -28,7 +17,7 @@ let proyectos = [
         github: "https://github.com/ROCKEMMA/rm_calculator",
         categoria: "Web",
         stacks: ["html", "css", "javascript"],
-        inicio: "12/05/2023",
+        inicio: "05/2023",
         img: "link/calculadora.jpg",
         icono: "🧮"
     },
@@ -39,7 +28,7 @@ let proyectos = [
         github: "https://github.com/ROCKEMMA/tienda_virtual_2024",
         categoria: "Web",
         stacks: ["html", "css", "javascript"],
-        inicio: "05/08/2024",
+        inicio: "08/2024",
         img: "",
         icono: ""
     }/* ,
@@ -61,43 +50,21 @@ let proyectos = [
         github: "https://github.com/ROCKEMMA/Market_list",
         categoria: "Web",
         stacks: ["html", "css", "javascript"],
-        inicio: "21/02/2024",
+        inicio: "02/2024",
         img: "",
         icono: ""
     },
     {
-        nombre: "Página de E-commerce (Demo)",
-        descripción: "Muestra de una tienda en línea básica.",
-        link_web: "myecommerce.com",
-        github: "github.com/user/ecommerce_demo",
-        categoria: "Web",
-        stacks: ["html", "css", "javascript"],
-        inicio: "15/12/2024",
-        img: "link/ecommerce.jpg",
-        icono: "🛒"
-    },
-    {
-        nombre: "Plantillas Notion",
+        nombre: "Finanzas personales",
         descripción: "",
         link_web: "https://rockema-academy.notion.site/Plantillas-07931423ec714167870f1a2daf68bad8",
         github: "#",
         categoria: "Web",
-        stacks: ["html", "css", "javascript"],
-        inicio: "01/02/2024",
+        stacks: ["Notion"],
+        inicio: "02/2024",
         img: "",
         icono: ""
-    }/* ,
-    {
-        nombre: "Simulador de Finanzas",
-        descripción: "Calculadora de presupuestos simples.",
-        link_web: "simuladorfinanzas.com",
-        github: "github.com/user/simulador_finanzas",
-        categoria: "Web",
-        stacks: ["html", "css", "javascript"],
-        inicio: "01/06/2024",
-        img: "link/finanzas.jpg",
-        icono: "😃"
-    } */
+    }
 ];
 
 let totalProyectos = proyectos.length;
