@@ -39,15 +39,15 @@ let lista_stacks = [
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/react.svg",
         categoria: "web"
     }, */
-/*     {
-        nombre: "WordPres",
-        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/wordPress.svg",
-        categoria: "web"
-    }, */
     {
         nombre: "JAVA",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/java.svg",
         categoria: "programación"
+    },
+    {
+        nombre: "MicroPython",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/fc6059981ae394f85f8f10c17fae2e7d103d7e39/stacks/MicroPython.svg",
+        categoria: "Programación"
     },
     {
         nombre: "python",
@@ -69,7 +69,7 @@ let lista_stacks = [
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/figma.svg",
         categoria: "diseño"
     },
-    {
+/*     {
         nombre: "Ilustrator",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/illustrator.svg",
         categoria: "diseño"
@@ -78,7 +78,7 @@ let lista_stacks = [
         nombre: "Photoshop",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/photoshop.svg",
         categoria: "diseño"
-    },
+    }, */
 /*     {
         nombre: "linode",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/linode.svg",
@@ -87,7 +87,7 @@ let lista_stacks = [
     {
         nombre: "Ubuntu",
         src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/ubuntu.svg",
-        categoria: "os"
+        categoria: "OS"
     },
     {
         nombre: "vscode",
@@ -95,9 +95,9 @@ let lista_stacks = [
         categoria: "editor"
     },
     {
-        nombre: "Discord",
-        src: "https://raw.githubusercontent.com/ROCKEMMA/img/d538b23783cd8f93bb587a9766bf71023257f1d7/stacks/discord.svg",
-        categoria: "comunicación"
+        nombre: "Parrot",
+        src: "https://raw.githubusercontent.com/ROCKEMMA/img/14d9b790fbf3853833e42a634c015a1b28e905ed/stacks/parrot.svg",
+        categoria: "OS"
     }
 ];
 

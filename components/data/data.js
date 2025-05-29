@@ -3,9 +3,9 @@ let proyectos = [
         nombre: "Curso Raspberry pi pico W",
         descripción: "Curso práctico de Raspberry Pi Pico W para aprender programación en Python y crear proyectos IoT con conectividad Wi-Fi.",
         link_web: "https://rockema-academy.notion.site/Curso-Raspberry-pi-pico-W-1-1f2bc7f02f4780caaea3fa3c8e9542d8",
-        github: "#",
-        categoria: "Web",
-        stacks: ["Notion"],
+        github: "https://github.com/ROCKEMMA/curso-1-pico-w-2025",
+        categoria: "Curso",
+        stacks: ["Notion","MPython", "Raspy W"],
         inicio: "05/2025",
         img: "",
         icono: ""
