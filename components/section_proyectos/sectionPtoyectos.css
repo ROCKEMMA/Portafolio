@@ -18,7 +18,7 @@
     cursor: pointer;
 
     display: grid;
-    grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr) 1fr 1fr 1fr;
+    grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) 1fr 1fr;
     align-items: center;
 }
 .item-tabla:hover {
@@ -27,7 +27,8 @@
 }
 .item-tabla .nombre {
     text-decoration: none;
-    color: rgb(73, 73, 211);
+    color: #2c3e50;
+    font-weight: 600;
     align-self: start;
     align-self: center;
 }
@@ -44,6 +45,7 @@
     padding: 0.5rem 1rem;
     text-decoration: none;
     background-color: black;
+    border: 1px solid black;
     color: white;
     border-radius: 3px;
 
@@ -53,22 +55,38 @@
 }
 
 .cat {
+    width: 100%;
     max-width: 8rem;
     padding: 0.5rem 1rem;
     border-radius: 3px;
     font-weight: 900;
-    border: 1px solid gainsboro;
-}
-.catWeb {
-    border: 1px solid black;
-}
-.catBachEnd {
-    background-color: rgb(51, 51, 107);
-    border: 1px solid black;
-    color: white;
+    border: 1px solid rgb(224, 224, 224);
+    
+    display: flex;
+    justify-content: center;
 }
 
+.rgb-border {
+    box-shadow: 0 0 4px #9900ff, 0 0 6px #00ffff, 0 0 8px #ffffff;
+    animation: rgbGlow 2s linear infinite;
+}
 
+@keyframes rgbGlow {
+    0% {
+        box-shadow: 0 0 6px #9900ff, 0 0 8px #00ffff, 0 0 10px #ffffff;
+    }
+    33% {
+        box-shadow: 0 0 6px #00ffff, 0 0 8px #ffffff, 0 0 10px #9900ff;
+    }
+    66% {
+        box-shadow: 0 0 6px #ffffff, 0 0 8px #9900ff, 0 0 10px #00ffff;
+    }
+    100% {
+        box-shadow: 0 0 6px #9900ff, 0 0 8px #00ffff, 0 0 10px #ffffff;
+    }
+}
+
+/* ---------------------------------------------- */
 @media (max-width: 768px) {
     .campos-tabla {
         display: none;

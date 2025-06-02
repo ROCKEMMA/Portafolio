@@ -12,7 +12,6 @@ function SectionProyectos(){
         <div>PROYECTOS</div>
         <div>STACKS</div>
         <div>CATEGORÍA</div>
-        <div>PUBLICACIÓN</div>
         <div class="titulo-btn-github">REPOSITORIO</div>
     `;
     sectionProyectos.appendChild(camposTabla);

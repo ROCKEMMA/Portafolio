@@ -16,10 +16,10 @@ function itemTabla(datos) {
 
     div.appendChild(tipoCategoria(datos.categoria));
 
-    let fecha = document.createElement('div');
+/*     let fecha = document.createElement('div');
     fecha.className = "fecha";
     fecha.innerText = datos.inicio;
-    div.appendChild(fecha);
+    div.appendChild(fecha); */
 
     let btnGithub = document.createElement('a');
     btnGithub.className = "btn-github";
@@ -31,7 +31,6 @@ function itemTabla(datos) {
     return div;
 }
 
-
 function tipoCategoria(categoria){
 
     let div = document.createElement('div');
@@ -39,9 +38,18 @@ function tipoCategoria(categoria){
     div.innerText = categoria;
 
     if(categoria == "Web"){
-        div.classList.add("catWeb");
-    }else if (categoria == "Backend"){
-        div.classList.add("catBachEnd")
+        div.style.border = '1px solid #154360';
+        div.style.color = '#1f618d';
+    }else if (categoria == "Notion"){
+        div.style.border = '1px solid #5d6d7e';
+        div.style.color = '#212f3d';
+    }else if (categoria == "Curso"){
+        div.style.border = '1px solid #9b59b6';
+        div.style.color = '#6c3483';
+        // div.classList.add("rgb-border");
+    }else if (categoria == "IoT"){
+        div.style.border = '1px solid #2ecc71'
+        div.style.color = '#196f3d'
     }
 
     return div;
