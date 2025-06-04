@@ -8,7 +8,6 @@
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
 }
-
 .header .div_numero_proyectos {
     height: 3rem;
     display: flex;
@@ -36,12 +35,14 @@
     grid-row: 1 / 2;
     justify-self: right;
     border-radius: 5px;
-    width: 10rem;
+    width: 15rem;
     background-color: rgb(28, 28, 34);
+    background-color:rgb(33, 161, 161);
     color: white;
     font-weight: 600;
     font-size: 1.4rem;
     cursor: pointer;
+    padding-bottom: 0.3rem;
     
     display: flex;
     align-items: center;
