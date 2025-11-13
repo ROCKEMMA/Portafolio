@@ -8,7 +8,7 @@ function cargar_menu_superior(){
             <h3>Proyectos</h3>
             <div>${totalProyectos}</div>
         </div>
-        <a class="contactar" href="https://rockema-academy.notion.site/CERTIFICADOS-29844374e9204633978212291c7d1ecf?source=copy_link">Certificados</a>
+        <a class="contactar" href="https://rockemma-academy.notion.site/CERTIFICADOS-29844374e9204633978212291c7d1ecf?source=copy_link">Certificados</a>
     `;
     return header;
 }
